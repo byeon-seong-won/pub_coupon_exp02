@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구독결제하기</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="header" id="header"></div>
+    <section>
+        <div class="subscsection">
+            <div>
+                <h1>구독 결제하기</h1>
+                <img src="img/subscrImg.png" alt="coinimg">
+                <div class="top">
+                    <div>
+                        <div class="img"><img src="img/gs25.png" alt="logo"></div>
+                        <div class="text">
+                            <h1>GS25 쿠폰팩</h1>
+                            <p>
+                                GS25 모바일 상품권 3천원권 3매 + GS25 모바일 상품권 2천원권 1매 + 
+                                GS25 모바일 상품권 3천원권 3매 +
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="price">
+                        <li>결제 금액</li>
+                        <li>월 <span>9,900</span>원</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <h2>주문자 정보</h2>
+                <input type="text" placeholder="이름">
+                <input type="tel" placeholder="휴대폰 번호">
+                <input type="email" placeholder="이메일">
+            </div>
+        </div>
+
+
+
+
+        <!-- 구독결제하기 버튼/모달-->
+        <div class="subscBtn">
+            <button class="pur modal-notice">구독 결제 하기</button>
+        </div>
+        <div class="pur_detail_wp" id="pur_detail_pop">
+            <div class="pur_detail">
+                <div class="text">
+                    <h3>결제 수단 선택</h3>
+                    <img src="img/close.png" alt="close" class="close">
+                </div>
+                <div class="img">
+                    <img src="img/card.png" alt="card" class="card">                
+                </div>
+                <p>약관 전체 동의</p>
+                <div class="noticeBox">
+                    <p class="notice">[필수] 서비스 이용약관 (유료)</p>
+                    <span>보기</span>
+                </div>
+                <p class="notice">결제 진행 시, 위 약관에 동의한 것으로 간주합니다.</p>
+            </div>
+
+            <!-- 카드 클릭시 노출 -->
+            <div class="cardInput">
+                <img src="img/close.png" alt="close" class="close">
+                <div>
+                    <h2>카드번호를 <br> 입력해주세요.</h2>
+                    <div><img src="img/frame01.png" alt="frame01"></div>
+                </div>
+                <input type="number" min="0" inputmode="numeric" pattern="[0-9]*" title="Non-negative integral number"/>
+            </div>
+            <!-- ///카드 클릭시 노출/// -->
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script> 
+</body>
+</html>

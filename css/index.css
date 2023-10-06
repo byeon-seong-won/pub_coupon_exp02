@@ -1,0 +1,126 @@
+@import url(common.css);
+@import url(sub.css);
+
+
+
+
+/*---------- mainpage style ----------*/
+
+
+/* footer 여백 설정 */
+/* #wrapper01 {height: auto;min-height: 100%;padding-bottom: 300px;}
+#wrapper02 {height: auto;min-height: 100%;padding-bottom: 300px;}
+ */
+
+
+
+
+/* 메인페이지 컨텐츠 */
+
+/* tab 메뉴 */
+.tabsection .tab {background-color: #fff;z-index: 100;position: fixed;top: 54px;width: 100%;display: flex;justify-content: space-around;align-items: center;height: 40px;cursor: pointer;border-bottom: 1px solid #DDDDDD;}
+.tabsection .tab li {flex: 1;text-align: center;height: 100%;line-height: 40px;font-size: 15px;color: #888;letter-spacing: -0.05em;}
+.tabsection .tab li.on {border-bottom: 2px solid #000;color: #000;font-weight: bold;}
+
+
+
+/* tab 01 */
+.tabsection .tabContent.tabContent_idx>div.tab01 {margin-top: 94px;width: 100%;height: 100%;padding-bottom: 100px;}
+.tabsection .tabContent.tabContent_idx>div.tab01>div {background: linear-gradient(to right bottom, #9586FF,#7561F8,#7561F8);/*position: absolute;*/ padding-bottom:40px; height: 100%;top: 0;width: 100%;z-index: -1;}
+.tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainText {padding: 20px 0;display: flex;align-items: center;margin-top: 20px;}
+.tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainText>h1 {padding-left: 20px;flex: 1.5;font-weight: 400;color: #fff;font-size: 20px;margin-bottom: 20px;letter-spacing: -0.05em;}
+.tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainText>div {flex: 1.5;}
+.tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainText>div>img {width: 100%;}
+
+
+.tabsection .tabContent.tabContent_idx>div.tab01>ul {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    box-shadow: 0px -12px 10px -10px rgba(0, 0, 0,0.5);
+    margin-top:-20px;
+}
+.tabsection .tabContent.tabContent_idx>div.tab01>ul>li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.tabsection .tabContent.tabContent_idx>div.tab01 ul li>div {height: 216px;text-align: center;background-color: #F8F8F8;flex: 1;border-radius: 8px;}
+.tabsection .tabContent.tabContent_idx>div.tab01 ul li>div>div {position: relative;;height: 100%;display: flex;flex-direction: column;align-items: center;}
+.tabsection .tabContent.tabContent_idx>div.tab01 ul li>div>div>img.contlogo {width: 120px;margin-top: 20px;}
+.tabsection .tabContent.tabContent_idx>div.tab01 ul li>div>div>h2 {color: #000;font-weight: bold;font-size : 16px;margin-top: 5px;}
+.tabsection .tabContent.tabContent_idx>div.tab01 ul li>div>div>p {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    letter-spacing: -0.03em;
+    font-size: 14px;
+    color: #666;
+    padding: 0 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.tabsection .tabContent.tabContent_idx>div.tab01 ul li>div>div>ul {display: flex;align-items: center;position: absolute;bottom: 25px;}
+.tabsection .tabContent.tabContent_idx>div.tab01 ul li>div>div>ul>li:nth-child(1) {letter-spacing: -0.03em;padding: 3px 10px;border-radius: 60px;background-color: #FFD200;color: #5E5050;font-size: 10px;font-weight: bold;}
+.tabsection .tabContent.tabContent_idx>div.tab01 ul li>div>div>ul>li:nth-child(1)>img {width: 6px;height: 7px;transform: translate(3px,3px);}
+.tabsection .tabContent.tabContent_idx>div.tab01 ul li>div>div>ul>li:nth-child(2) {margin-left: 3px;font-size: 12px;color: #000;}
+.tabsection .tabContent.tabContent_idx>div.tab01 ul li>div>div>ul>li:nth-child(2)>span {font-size: 16px;font-weight: bold;letter-spacing: -0.03em;}
+
+
+
+
+
+/* 내 구독쿠폰 */
+.tabsection.coutabsection .tabContent.tabContent_idx {margin-top: 94px;padding: 0;position: relative;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 {padding :30px 20px 100px 20px;background: linear-gradient(to right bottom, #9586FF,#9586FF,#7561F8,#7561F8,#7561F8);}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02>div>h2 {color: #fff;font-size: 20px;letter-spacing: -0.05em;font-weight: 400;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02>div>h2>span {font-weight: bold;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02>div:nth-child(2) {display: flex;flex-direction: column;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .couponWrap {width: 100%;max-width: 360px;position: relative;display: table;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-img>img {
+    transform: translateX(-18px);
+    margin-top: 10px;
+    max-width: 360px;
+    width: 100%;
+}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt-wrap {padding: 5px 0;position: absolute;top: 50%;left: 45%;transform: translate(-50%,-50%);width: 75%;display: table-cell;vertical-align: middle;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt {display: flex;align-items: center;justify-content: space-between;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div:nth-child(1) {width: 65%;padding-right: 10px;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>h2 {font-size: 22px;font-weight: bold;letter-spacing: -0.05em;display: table;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>h2>span {font-size: 16px;transform: translateX(5px);display: table-cell;vertical-align: middle;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>p {margin-top: 5px;font-size: 13px;letter-spacing: -0.03em;font-weight: 500;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>p:last-of-type {margin-top: 10px;font-size: 13px;letter-spacing: -0.05em;color: #888;line-height: 20px;font-weight: bold;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>p:last-of-type>span {font-weight: 400;display: inline-block;margin-left: 5px;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>.brandLogo {background-color: #fff;border: 1px solid #ddd;width: 68px;height: 68px;border-radius: 50%;position: relative;}
+.tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt .brandLogo img {width: 47px;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+
+
+
+
+@media (min-width : 410px) {
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02>div>h2 {text-align: center;}
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02>div:nth-child(2) {align-items: center;}
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-img>img {transform: unset;}
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt-wrap {left: 50%;}
+}
+
+
+@media (min-width : 350px) {
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>h2 {font-size: 22px;}
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>p {font-size: 13px;}
+}
+
+@media (max-width : 350px) {
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div:nth-child(1) {width: 70%;}
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>h2 {font-size: 18px;}
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>p,
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>p:last-of-type {font-size: 12px;}
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>p:last-of-type {margin-top: 5px;}
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>.brandLogo {width: 58px;height: 58px;}
+    .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>h2>span {font-size: 15px;}
+}

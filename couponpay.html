@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>결제수단 변경</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="coupon">
+    <div>
+        <div class="header" id="header"></div>
+        <section>
+            <div class="tabsection">
+                <ul class="tab">
+                    <li data-alt="tab01" onclick="location.href='index.html'">쿠폰팩</li>
+                    <li class="on" data-alt="tab02" onclick="location.href='coupon.html'">내 구독 쿠폰</li>
+                </ul>
+                <div class="tabContent tabContent_sb">
+                    <div id="tab02" class="tab02">
+                        <div>
+                            <div class="mainText paymainText">
+                                <div>
+                                    <h1>결제 수단 변경</h1>
+                                    <p>
+                                        <span>현재 결제수단</span>
+                                        삼성 123412*****134 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>다른 결제 수단으로 변경</h2>
+                            <input type="radio" id="credit_ck" name="credit_ck">
+                            <label for="credit_ck">
+                                <span>신용/체크카드</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 결제수단변경 버튼/모달-->
+            <div class="couponBtn">
+                <button class="pur modal-not back">이전</button>
+                <button class="pur modal-not modi">결제 수단 변경</button>
+            </div>
+            <div class="pur_detail_wp" id="pur_detail_pop">
+                <div class="pur_detail first">
+                    <div class="text">
+                        <h3>주문자 정보</h3>
+                        <img src="img/close.png" alt="close" class="close">
+                    </div>
+                    <input type="text" placeholder="이름">
+                    <input type="tel" placeholder="휴대폰 번호">
+                    <input type="email" placeholder="이메일">
+                   
+                </div>
+                <div class="pur_detail final" style="display: none;">
+                    <div class="text">
+                        <h3>결제 수단 선택</h3>
+                        <img src="img/close.png" alt="close" class="close">
+                    </div>
+                    <div class="img"><img src="img/card.png" alt="card"></div>
+                    <p>약관 전체 동의</p>
+                    <div class="noticeBox">
+                        <p class="notice">[필수] 서비스 이용약관 (유료)</p>
+                        <span>보기</span>
+                    </div>
+                    <p class="notice">결제 진행 시, 위 약관에 동의한 것으로 간주합니다.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer></footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script> 
+</body>
+</html>

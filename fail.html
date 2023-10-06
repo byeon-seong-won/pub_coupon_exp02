@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>결제실패</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="result">
+    <header></header>
+    <section>
+        <div class="resultsection fail">
+            <div class="detailBox_top">
+                <h2>결제 실패</h2>
+                <img src="img/fail.png" alt="fail">
+                <p>
+                    입력하신 카드번호가 유효하지 않습 니다. 
+                    다시 확인해주세요. 
+                </p>
+            </div>
+            <div class="failNotice">
+                <div class="triangle"></div>
+                <p> 
+                    결제승인에 실패되었습니다. <br>
+                    실패사유를 확인하신 후재시도를 하시거나,  <br>
+                    계속 실패되시는 경우 <br>
+                    고객센터로 문의주시기 바랍니다.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- 구독결제하기 버튼/모달-->
+        <div class="subscBtn">
+            <button class="pur modal-not ice">다시 결제하기</button>
+        </div>
+        <div class="pur_detail_wp" id="pur_detail_pop">
+            <div class="pur_detail">
+                <div class="text">
+                    <h3>결제 수단 선택</h3>
+                    <img src="img/close.png" alt="close" class="close">
+                </div>
+                <div class="img"><img src="img/card.png" alt="card"></div>
+                <p>약관 전체 동의</p>
+                <div class="noticeBox">
+                    <p class="notice">[필수] 서비스 이용약관 (유료)</p>
+                    <span>보기</span>
+                </div>
+                <p class="notice">결제 진행 시, 위 약관에 동의한 것으로 간주합니다.</p>
+            </div>
+        </div>
+
+    </section>
+
+ 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script> 
+</body>
+</html>

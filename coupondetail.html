@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 구독쿠폰 상세페이지</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="coupon">
+ 
+    <div>
+        <div class="header" id="header"></div>
+        <section>
+            <div class="tabsection">
+                <ul class="tab">
+                    <li data-alt="tab01" onclick="location.href='index.html'">쿠폰팩</li>
+                    <li class="on" data-alt="tab02" onclick="location.href='coupon.html'">내 구독 쿠폰</li>
+                </ul>
+                <div class="tabContent tabContent_sb">
+                    <div id="tab02" class="tab02">
+                        <div>
+                            <div class="mainText">
+                                <div>
+                                    <h1>GS25 쿠폰팩</h1>
+                                    <p>
+                                        GS25 모바일 상품권 3천원권 3매 
+                                        + GS25 모바일 상품권 2천원권 1매
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="img/gs25.png" alt="logo">
+                                </div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <div><img src="img/coupon01.png" alt="icon"></div>
+                                <div>
+                                    <div>
+                                        <p>구독상태</p>
+                                        <p>구독중</p>
+                                    </div>
+                                    <button>구독취소</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="img/coupon02.png" alt="icon"></div>
+                                <div>
+                                    <div>
+                                        <p>구독 시작일</p>
+                                        <p>2023.09.05</p>
+                                    </div>
+                                    <!-- <button>구독취소</button> -->
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="img/coupon03.png" alt="icon"></div>
+                                <div>
+                                    <div>
+                                        <p>다음 쿠폰 발행일</p>
+                                        <p>2023.10.06</p>
+                                    </div>
+                                    <!-- <button></button> -->
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="img/coupon04.png" alt="icon"></div>
+                                <div>
+                                    <div>
+                                        <p>결제수단</p>
+                                        <p>삼성 123******134</p>
+                                    </div>
+                                    <button onclick="location.href='couponpay.html'">변경</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer></footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script> 
+</body>
+</html>
