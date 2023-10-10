@@ -51,7 +51,7 @@
     box-sizing: border-box;
 }
 .tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainswiper .swiper-slide .bgWrap>div>div {width: 100%;display: table-cell;vertical-align: middle;}
-.tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainswiper .swiper-slide .bgWrap>div .detalogo {width: 70px;}
+.tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainswiper .swiper-slide .bgWrap>div .detalogo {width: 120px;}
 .tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainswiper .swiper-slide .bgWrap>div h2 {font-size: 20px;letter-spacing: -0.03em;color: #000;font-weight: bold;margin-top: 10px;}
 .tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainswiper .swiper-slide .bgWrap>div h3 {color: #666;letter-spacing: -0.03em;font-size: 14px;}
 .tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainswiper .swiper-slide .bgWrap>div .best {width: 50px;position: absolute;top: 20px;right: 20px;}
