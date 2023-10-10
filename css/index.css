@@ -148,6 +148,7 @@
 }
 
 @media (max-width : 350px) {
+    .tabsection .tabContent.tabContent_idx>div.tab01>div>div.mainText>h1 {margin-bottom: 40px;}
     .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div:nth-child(1) {width: 70%;}
     .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>h2 {font-size: 18px;}
     .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>p,
@@ -156,3 +157,4 @@
     .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>.brandLogo {width: 58px;height: 58px;}
     .tabsection.coutabsection .tabContent.tabContent_idx>div.tab02 .coupon-txt>div>h2>span {font-size: 15px;}
 }
+
