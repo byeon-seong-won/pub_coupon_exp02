@@ -174,9 +174,32 @@
 .result header {display: none;}
 .leftarr {opacity: 0;}
 .resultsection {margin-top: 70px;text-align: center;padding: 0 20px 150px;}
+.resultBtn {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    cursor: pointer;
+    z-index: 50000;
+}
+.resultBtn>button {
+    border: none;
+    background-color: #FFD200;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 56px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5E5050;
+}
+
 
 /* 결제실패 */
-.resultsection.fail>div.detailBox_top>img {width: 200px;margin-top: 30px;}
+.resultsection.fail>div.detailBox_top>img {width: 240px;margin-top: 30px;}
 .resultsection.fail>div.detailBox_top>h2 {font-weight: bold;font-size: 22px;letter-spacing: -0.36px;line-height: 17.5px;}
 .resultsection.fail>div.detailBox_top>p {font-weight: 500;padding: 0 40px;word-break: keep-all;font-size: 16px;letter-spacing: -0.05em;line-height: 20px;}
 .resultsection.fail>div.failNotice {position: relative;;margin-top: 70px;background-color: #FEF6E1;border-radius: 16px;padding: 20px;}
@@ -199,7 +222,7 @@
 .resultsection.success>div.detailBox_top>img {width: 200px;margin-top: 30px;}
 .resultsection.success>div.detailBox_top>h2 {font-weight: bold;font-size: 22px;letter-spacing: -0.36px;line-height: 17.5px;}
 .resultsection.success>div.detailBox_top>p {font-weight: 400;padding: 0 40px;word-break: keep-all;font-size: 16px;letter-spacing: -0.05em;line-height: 20px;}
-.resultsection.success>div.detailBox_top>div {margin-top: 40px;column-gap: 20px;display: flex;align-items: center;border-top: 2px solid #000;border-bottom: 1px solid #ddd;padding: 20px 0;}
+.resultsection.success>div.detailBox_top>div {margin-top: 70px;column-gap: 20px;display: flex;align-items: center;border-top: 2px solid #000;border-bottom: 1px solid #ddd;padding: 20px 0;}
 .resultsection.success>div.detailBox_top>div>.img {background-color: #f8f8f8;display: table;border-radius: 8px;overflow: hidden;padding: 30px 10px;}
 .resultsection.success>div.detailBox_top>div>.img>img {width: 60px;display: table-cell;vertical-align: middle;background-color: #f8f8f8;}
 .resultsection.success>div.detailBox_top>div>.text {text-align: left;}
