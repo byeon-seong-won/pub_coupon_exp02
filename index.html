@@ -9,6 +9,26 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- swiper -->
+    <script type="text/javascript" src="js/swiper.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        $(function () {
+            var swiper1 = new Swiper('.mainswiper', {
+                loop: true,
+                autoplay: false,
+                speed:1500,
+                grabCursor: true,
+                effect: 'slide',
+                slidesPerView: 'auto',
+                // spaceBetween: 1,
+                centeredSlides: true,
+                loopAdditionalSlides: 1,
+        })
+    });
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 </head>
 
 <body>
@@ -28,19 +48,73 @@
                                 <h1>내 일상을 가득 채워줄 드림패스 쿠폰팩을 놓치지 마세요!</h1>
                                 <div><img src="img/mainPer.png" alt="icon"></div>
                             </div>
-                            <!-- <div class="swiper-container mainswiper">
+                            <div class="swiper-container mainswiper">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">첫번쨰 슬라이드</div>
-                                    <div class="swiper-slide">두번쨰 슬라이드</div>
-                                    <div class="swiper-slide">세번쨰 슬라이드</div>
+                                    <div class="swiper-slide">
+                                        <div class="bgWrap">
+                                            <div>
+                                                <div> 
+                                                    <img src="img/gs2501.png" alt="logo" class="detalogo">
+                                                    <h2>GS25 쿠폰팩</h2>
+                                                    <img src="img/best.png" alt="best" class="best">
+                                                    <h3>
+                                                        GS25 모바일 상품권 3천원권 3매
+                                                        GS25 모바일 상품권 3천원권 3매 
+                                                    </h3>
+                                                    <ul class="price">
+                                                        <li class="roboto">10%<img src="img/disco.png" alt="disco"></li>
+                                                        <li>월 <span>9,900</span>원</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="bgWrap">
+                                            <div>
+                                                <div>
+                                                    <img src="img/paris01.png" alt="logo" class="detalogo">
+                                                    <h2>파리바게트 쿠폰팩</h2>
+                                                    <img src="img/best.png" alt="best" class="best">
+                                                    <h3>
+                                                        GS25 모바일 상품권 3천원권 3매 + GS25 모바일 상품권 2천원권 1매
+                                                        GS25 모바일 상품권 3천원권 3매 
+                                                    </h3>
+                                                    <ul class="price">
+                                                        <li class="roboto">10%<img src="img/disco.png" alt="disco"></li>
+                                                        <li>월 <span>9,900</span>원</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="bgWrap">
+                                            <div>
+                                                <div>
+                                                    <img src="img/cgv01.png" alt="logo" class="detalogo">
+                                                    <h2>cgv 쿠폰팩</h2>
+                                                    <img src="img/best.png" alt="best" class="best">
+                                                    <h3>
+                                                        GS25 모바일 상품권 3천원권 3매 + GS25 모바일 상품권 2천원권 1매
+                                                        GS25 모바일 상품권 3천원권 3매 
+                                                    </h3>
+                                                    <ul class="price">
+                                                        <li class="roboto">10%<img src="img/disco.png" alt="disco"></li>
+                                                        <li>월 <span>9,900</span>원</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                         <ul>
                             <li>
                                 <div onclick="location.href='detail.html'">
                                     <div>
-                                        <img src="img/gs25.png" alt="logo" class="contlogo">
+                                        <img src="img/seven01.png" alt="logo" class="contlogo">
                                         <h2><span>GS25 </span>쿠폰팩</h2>
                                         <p>
                                             <span>GS25</span> 모바일 상품권 <span>3</span>천원권 <span>3</span>매+
@@ -54,7 +128,7 @@
                                 </div>
                                 <div onclick="location.href='detail.html'">
                                     <div>
-                                        <img src="img/paris.png" alt="logo" class="contlogo">
+                                        <img src="img/paris01.png" alt="logo" class="contlogo">
                                         <h2>파리바게뜨 쿠폰팩</h2>
                                         <p>
                                             파리바게뜨 <span>3</span>천원권 <span>3</span>매+파리바게뜨 <span>2</span>천원권 <span>1</span>매
@@ -69,7 +143,7 @@
                             <li>
                                 <div onclick="location.href='detail.html'">
                                     <div>
-                                        <img src="img/gskal.png" alt="logo" class="contlogo">
+                                        <img src="img/gskal01.png" alt="logo" class="contlogo">
                                         <h2><span>GS</span>칼텍스 쿠폰팩</h2>
                                         <p>
                                             <span>5</span>천원주유권 <span>2</span>매+<span>3</span>천원세차쿠폰 <span>1</span>매+오토오아시스멤버오토오아시스멤버오토오아시스멤버오토오아시스멤버
@@ -82,7 +156,7 @@
                                 </div>
                                 <div onclick="location.href='detail.html'">
                                     <div>
-                                        <img src="img/ediya.png" alt="logo" class="contlogo">
+                                        <img src="img/ediya01.png" alt="logo" class="contlogo">
                                         <h2>이디야커피 쿠폰팩</h2>
                                         <p>
                                             이디야커피 아메리카노 <span>(L)</span class="roboto"> <span>4</span>매
@@ -97,7 +171,7 @@
                             <li>
                                 <div onclick="location.href='detail.html'">
                                     <div>
-                                        <img src="img/seven.png" alt="logo" class="contlogo">
+                                        <img src="img/seven01.png" alt="logo" class="contlogo">
                                         <h2>세븐일레븐 쿠폰팩</h2>
                                         <p>
                                             세븐일레븐 <span>3</span>천원교환권천원교환권 천원교환권 천원교환권 천원교환권 천원교환권  <span>3</span>매+세븐일레븐 <span>2</span>천원교환권 <span>1</span>매
@@ -110,7 +184,7 @@
                                 </div>
                                 <div onclick="location.href='detail.html'">
                                     <div>
-                                        <img src="img/cgv.png" alt="logo" class="contlogo">
+                                        <img src="img/cgv01.png" alt="logo" class="contlogo">
                                         <h2><span>CGV </span>쿠폰팩</h2>
                                         <p>
                                             <span>2D</span>영화 <span>3</span>천원 할인권 <span>2</span>매+콤보교환권 <span>1</span>매
