@@ -110,7 +110,7 @@ $(document).ready(function() {
       $(".cardInput").css({"display":"none"})
       $(".pur_detail_wp").css({"display":"block"})
       $(".subscBtn>button").text("구독 결제 하기");
-      $(".subscBtn>button").css({"backgroundColor" : "#FFD200", "color" : "#5E5050"})
+      $(".subscBtn>button").css({"backgroundColor" : "#F5BD1A", "color" : "#5E5050"})
     })
     
     // 구독하기 - 닫기 클릭
@@ -131,7 +131,7 @@ $(document).ready(function() {
     // $(".cardInput .close").click(function() {
     //   $(".pur_detail_wp").css({"display":"none"})
     //   $(".subscBtn>button").text("구독 결제 하기");
-    //   $(".subscBtn>button").css({"backgroundColor" : "#FFD200", "color" : "#5E5050"})
+    //   $(".subscBtn>button").css({"backgroundColor" : "#F5BD1A", "color" : "#5E5050"})
     //   clicked = true;
     // })
 
