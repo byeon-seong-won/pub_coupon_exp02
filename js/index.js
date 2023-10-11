@@ -119,21 +119,21 @@ $(document).ready(function() {
     })
 
     // 카드 클릭시 노출
-    $(".pur_detail .card").click(function() {
-      $(".cardInput").css({"display":"block"})
-      $(".pur_detail").css({"display":"none"})
-      $(".pur_detail_wp").css({"display":"block"})
-      $(".subscBtn>button").text("다음");
-      $(".subscBtn>button").css({"backgroundColor" : "#D9D9D9", "color" : "rgba(94, 80, 80,0.3)"})
-    })
+    // $(".pur_detail .card").click(function() {
+    //   $(".cardInput").css({"display":"block"})
+    //   $(".pur_detail").css({"display":"none"})
+    //   $(".pur_detail_wp").css({"display":"block"})
+    //   $(".subscBtn>button").text("다음");
+    //   $(".subscBtn>button").css({"backgroundColor" : "#D9D9D9", "color" : "rgba(94, 80, 80,0.3)"})
+    // })
 
     // 카드 클릭시 노출 - 닫기 클릭
-    $(".cardInput .close").click(function() {
-      $(".pur_detail_wp").css({"display":"none"})
-      $(".subscBtn>button").text("구독 결제 하기");
-      $(".subscBtn>button").css({"backgroundColor" : "#F5BD1A", "color" : "#5E5050"})
-      clicked = true;
-    })
+    // $(".cardInput .close").click(function() {
+    //   $(".pur_detail_wp").css({"display":"none"})
+    //   $(".subscBtn>button").text("구독 결제 하기");
+    //   $(".subscBtn>button").css({"backgroundColor" : "#F5BD1A", "color" : "#5E5050"})
+    //   clicked = true;
+    // })
 
      /*---------- /// subsc script /// ----------*/
 
